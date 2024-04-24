@@ -1,0 +1,28 @@
+.searchForm {
+  text-align: center;
+  margin-top: 30px;
+  background-color: blue;
+  min-width: 1280px;
+}
+.searchFormImput {
+  border: 1px solid blue;
+  padding: 5px;
+  margin-right: 10px;
+  width: 35%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* .Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+} */
