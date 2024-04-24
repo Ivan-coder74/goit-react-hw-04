@@ -1,11 +1,11 @@
-import ImageModal from ".//ImageModal/ImageModal";
-import LoadMoreBtn from "./LoadMoreBtn/LoadMoreBtn";
-import SearchForm from "./SearchBar/SearchBar";
+import ImageModal from "./components/ImageModal/ImageModal";
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
+import SearchForm from "./components/SearchBar/SearchBar";
 import { requestImagesByQuery } from "../articles-api";
 import { useEffect, useState } from "react";
-import ImageGallery from "./ImageGallery/ImageGallery";
-import Loader from "./loader/loader";
-import ErrorMessage from "./ErrorMessage/ErrorMessage";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
+import Loader from "./components/loader/loader";
+import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
 
 export default function App() {
   const [gallery, setGallery] = useState([]);
